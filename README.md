@@ -3,8 +3,7 @@ LingDber is a lightweight, Open Source(LGPL), database helper library for ASP.NE
 
 ## Features
 
-* Very easy to use
-* Single table to add, delete, change, query,  don't need to to write Sql code. 
+* Single table to insert, delete, update and query,  don't need to to write Sql code. 
 * Provide database method for complex Sql.
 * Provide database method for paging.
 * Free transfer DataTable, DbModel or entity class.
