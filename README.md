@@ -10,9 +10,7 @@ LingDber is a lightweight, Open Source(LGPL), database helper library for ASP.NE
 * Support for transaction.
 
 
-## Download
 
-https://github.com/laufin/
 
 ## Useage
 
@@ -55,13 +53,13 @@ foreach(DataRow row in dtList)
 //******* DbModel *********/
 //select UserID less than 10000 and return DbModel
 
-List<Ling.Dber.DbModel> dmList = dber.Where('UserID<10000').List();
+List<Ling.Dber.DbModel> dmList = dber.Where("UserID<10000").List();
 foreach(DbModel dm in dmList)
 {
 	//do something
-	string username = dm['UserName'];
+	string username = dm["UserName"];
 	//or use
-	//string username = dm.GetString('UserName');
+	//string username = dm.GetString("UserName");
 }
 
 
@@ -78,7 +76,7 @@ public class UserModel
 DbModel sqlParamMdel = DbModel();	//create SqlParamters
 sqlParamMdel["MaxUserID"] = 10000;	//Assign a value
 
-List<UserModel> umList = dber.Where('UserID<@MaxUserID', sqlParamMdel).List<UserModel>();
+List<UserModel> umList = dber.Where("UserID<@MaxUserID", sqlParamMdel).List<UserModel>();
 foreach(UserModel um in umList)
 {
 	//do something
@@ -88,6 +86,9 @@ foreach(UserModel um in umList)
 
 ```
 
+## Download
+
+https://github.com/laufin/ling.dber  
 
 ## Author
 
@@ -99,7 +100,7 @@ Email: laufin(at)qq.com
 
 HomePage: http://www.liufuling.cn  
 
-Cnblogs: http://foolin.cnblogs.com/  
+Cnblogs: http://foolin.cnblogs.com  
 
 Github: https://github.com/laufin  
 
