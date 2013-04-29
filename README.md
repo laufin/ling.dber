@@ -1,5 +1,5 @@
 
-LingDber is a lightweight, Open Source(LGPL), database helper class libray for ASP.NET(C#).
+LingDber is a lightweight, Open Source(LGPL), database helper library for ASP.NET(C#), .
 
 ## Features
 
@@ -77,7 +77,7 @@ public class UserModel
 }
 
 DbModel sqlParamMdel = DbModel();	//create SqlParamters
-sqlParamMdel['MaxUserID'] = 10000;	//Assign a value
+sqlParamMdel["MaxUserID"] = 10000;	//Assign a value
 
 List<UserModel> umList = dber.Where('UserID<@MaxUserID', sqlParamMdel).List<UserModel>();
 foreach(UserModel um in umList)
@@ -93,16 +93,24 @@ foreach(UserModel um in umList)
 ## Author
 
 Author: laufin  
+
 QQ: 250047953  
+
 Email: laufin(at)qq.com  
+
 HomePage: http://www.liufuling.cn  
+
 Cnblogs: http://foolin.cnblogs.com/  
-Github: https://github.com/laufin
+
+Github: https://github.com/laufin  
+
+
 
 ## Copyright
 
-Licensed:  LGPL-2.1 <http://opensource.org/licenses/lgpl-2.1.php>
-Copyright (c) 2011-2013 Laufin,all rights reserved.
+Licensed:  LGPL-2.1 <http://opensource.org/licenses/lgpl-2.1.php>  
+
+Copyright (c) 2011-2013 Laufin,all rights reserved.  
 
 
 
