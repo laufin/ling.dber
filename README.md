@@ -12,7 +12,7 @@ LingDber is a lightweight, Open Source(LGPL), database helper library for ASP.NE
 
 
 
-## Useage
+## Usage
 
 
 1.Create dber class and map the database table.  
