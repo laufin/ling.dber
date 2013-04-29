@@ -98,11 +98,9 @@ QQ: 250047953
 
 Email: laufin(at)qq.com  
 
-HomePage: http://www.liufuling.cn  
-
-Cnblogs: http://foolin.cnblogs.com  
-
 Github: https://github.com/laufin  
+
+Weibo: http://weibo.com/laufin
 
 
 
@@ -110,7 +108,7 @@ Github: https://github.com/laufin
 
 Licensed:  LGPL-2.1 <http://opensource.org/licenses/lgpl-2.1.php>  
 
-Copyright (c) 2011-2013 Laufin,all rights reserved.  
+Copyright (c) 2012-2013 Laufin,all rights reserved.  
 
 
 
