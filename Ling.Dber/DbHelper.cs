@@ -388,14 +388,14 @@ namespace Ling.Dber
         /// </summary>
         protected bool _isExceptionAutoRollback = false;
 
-        protected DbHelper()
+        public DbHelper()
         {
         }
 
         /// <summary>
         /// 实例方法支持事务处理
         /// </summary>
-        protected DbHelper(string connectionstring)
+        public DbHelper(string connectionstring)
         {
             this._connstring = connectionstring;
         }
